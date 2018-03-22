@@ -1,5 +1,5 @@
 # YAW
-  means: yet another website 
+  yet another website 
 
 # languages
   Typescript / JS, HTML, CSS, PHP, 
