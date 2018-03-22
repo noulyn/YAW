@@ -1,0 +1,122 @@
+#login_click a
+	{
+	width: 100%;
+	text-align: right;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: black;
+	position: blocked;
+	z-index:1000000;
+	float:right;
+	font-family: Fjalla One;
+	margin: 2px;
+	margin-right: 5px;
+	}
+
+nav
+	{
+	background-color: black;
+	width:100%;
+	float: left;
+	position: fixed;
+	z-index:999999;
+
+	border-top:25px solid white;
+
+	}
+nav a
+	{
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	}
+nav a:hover
+	a:focus
+	a:active
+	{
+	color: grey;
+	}
+button#login 
+	{
+	float:right;
+	background-color: white;
+    color: black;
+    border: 2px solid grey;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family:'Indie Flower', cursive;
+	margin-right:5px;
+	padding: 10px;
+	}
+	
+ul.navi_class 
+	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	}
+
+ul.navi_class li 
+	{
+	float: left;
+	}
+ul.navi_class li a 
+	{
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+	}
+
+ul.navi_class li a:hover 
+	{
+	background-color: #555;
+	}
+ul.navi_class li.icon 
+	{
+	display: none;
+	}
+
+@media screen and (max-width:680px) 
+{
+	ul.navi_class li:not(:first-child) 
+		{
+		display: none;
+		}  
+	ul.navi_class li.icon 
+		{
+		float: right;
+		display: inline-block;
+		}
+}
+
+@media screen and (max-width:680px) 
+{
+	ul.navi_class.responsive 
+		{
+		position: relative;
+		}
+	ul.navi_class.responsive li.icon 
+		{
+		position: absolute;
+		right: 0;
+		top: 0;
+		}
+	ul.navi_class.responsive li 
+		{
+		float: none;
+		display: inline;
+		}
+	ul.navi_class.responsive li a 
+		{
+		display: block;
+		text-align: left;
+		}
+}
