@@ -1,7 +1,9 @@
 <?php
 // read out filenames from folder style
+$integer = 0;
  foreach(glob('pictures/*.jpg') as $filename)
  {
-    echo "<img class='picInGallery' src='".$filename."'/>";
+    $integer++;
+    echo "<img class='picInGallery' id='#".$integer."' src='".$filename."'/>";
  }
 ?>
