@@ -11,9 +11,14 @@
 	
 	<body>
 			<div id="main">
-				<div id="welcoe">
+				<div id="welcome">
 					<?php 
 					include "mainContent/welcome.php"
+					?>
+				</div>
+				<div id="gallery">
+					<?php 
+					include "gallery/gallery.php"
 					?>
 				</div>
 				<div id="contact">
