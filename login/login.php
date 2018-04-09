@@ -5,27 +5,21 @@
 		<title>Home</title> 
 		<?php 	
 		include "../style/style.php";
-		include "../navigation/navi.php";
+
 		?>
 	</head> 
 	
 	<body>
 			<div id="main">
-				<div id="welcome">
-					<?php 
-					include "welcome.php"
-					?>
-				</div>
-				<div id="gallery">
-					<?php 
-					include "../gallery/gallery.php"
-					?>
-				</div>
-				<div id="contact">
-					<?php 
-					include "../addContent/contact.php"
-					?>
-				</div>
+			<form action="action_page.php">
+			Name<br>
+			<input type="text" name="firstname" value="Mickey">
+			<br>
+			Passwort<br>
+			<input type="text" name="lastname" value="Mouse">
+			<br><br>
+			<input type="submit" value="Submit">
+			</form> 
 			</div>
 			<div id="logo">
 						
