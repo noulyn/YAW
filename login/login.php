@@ -11,7 +11,7 @@
 	
 	<body>
 			<div id="main">
-			<form action="action_page.php">
+			<form action="action.php">
 			Name<br>
 			<input type="text" name="firstname" value="Mickey">
 			<br>
