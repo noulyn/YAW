@@ -8,4 +8,4 @@
   -
   
 # purpose
-  This project just exists to learn a little bit of webdevelopment and git-stuff
+  This project just exists to learn a little bit of webdev'n'gitstuff
