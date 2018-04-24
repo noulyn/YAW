@@ -4,33 +4,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<title>Home</title> 
 		<?php 	
-		include "../style/style.php";
-		include "../navigation/navi.php";
+		include "style/style.php";
+		//include "navigation/navi.php";
 		?>
 	</head> 
 	
 	<body>
-			<div id="main">
-				<div id="welcome">
-					<?php 
-					include "welcome.php"
-					?>
-				</div>
-				<div id="gallery">
-					<?php 
-					include "../gallery/gallery.php"
-					?>
-				</div>
-				<div id="contact">
-					<?php 
-					include "../addContent/contact.php"
-					?>
-				</div>
-			</div>
-			<div id="logo">
-						
-			</div>
+		<div id="main">
+			<?php 	
+			include "login/login.php";
+			?>
+		</div>
+
 	</body>
 
 </html>
-
